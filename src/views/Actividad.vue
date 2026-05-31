@@ -17,10 +17,11 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema:
+        'Cartera en acción: demuestra tu dominio en gestión y recuperación.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Evaluar el nivel de apropiación de los conceptos fundamentales sobre administración, recuperación de cartera y procesos de cobranza en el sector financiero colombiano.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +29,32 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es la función principal de la cartera de créditos en el balance general de una entidad financiera?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Registrar las obligaciones de la entidad con sus ahorradores.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Reflejar el patrimonio acumulado por la entidad durante el período.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Constituir el principal activo generador de ingresos financieros de la institución.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Mostrar el saldo de las provisiones constituidas por riesgo de mercado.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +64,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Qué porcentaje de provisión individual corresponde a una obligación clasificada en categoría C según la CBCF de la Superintendencia Financiera?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '1 % del saldo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '3.2 % del saldo.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '20 % del saldo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: '50 % del saldo.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +94,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué función administrativa corresponde a la elaboración del plan de administración y recuperación de cartera con definición de objetivos y estrategias?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Organización.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Dirección.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Control.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Planeación.',
               esCorrecta: false,
             },
           ],
@@ -120,28 +126,32 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál de las siguientes prácticas de cobranza está expresamente prohibida por la Circular Externa 029 de 2014 de la Superintendencia Financiera?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Contactar al deudor por llamada telefónica durante el horario laboral.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Ofrecer alternativas de acuerdo de pago al deudor en mora.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Reportar al deudor ante las centrales de riesgo después de 60 días de mora.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Contactar al deudor a través de vecinos o familiares no codeudores para ejercer presión.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +160,33 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué indica un índice de cartera vencida elevado en una entidad financiera?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Que la entidad tiene un alto volumen de nuevos desembolsos de crédito.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Que un porcentaje significativo del portafolio presenta mora superior a 30 días.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Que las provisiones constituidas son insuficientes para cubrir los riesgos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Que la tasa de interés cobrada supera el límite de usura certificado.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +196,32 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el primer paso que debe realizarse para elaborar un plan de recuperación de cartera?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Definir el presupuesto del área de cobranza antes de conocer el estado de la cartera.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Asignar la cartera a cada gestor únicamente según su experiencia previa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Elaborar el diagnóstico de la cartera que revele la distribución por rango de mora y nivel de riesgo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Informar al deudor únicamente sobre los beneficios económicos para la entidad.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +231,32 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué implica el principio de transparencia en la relación ética con el deudor durante el proceso de cobranza?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Comunicar con claridad y veracidad el estado de la obligación y las alternativas disponibles.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Mantener en reserva la información sobre los intereses de mora causados.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'Compartir la situación del deudor con otros clientes de la entidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Enviar una carta de cobro extrajudicial sin más acciones.',
               esCorrecta: false,
             },
           ],
@@ -243,28 +266,31 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Qué estrategia de cobranza es la más adecuada para un crédito con 55 días de mora cuyo deudor no ha respondido a tres llamadas previas?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto:
+                'Realizar una visita domiciliaria con propuestas de acuerdo de pago.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'Declarar el crédito como irrecuperable y proceder al castigo contable.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Responder con el mismo tono para demostrar firmeza.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Amenazar con iniciar proceso judicial de manera inmediata.',
               esCorrecta: false,
             },
           ],
@@ -274,19 +300,29 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Cuál es la ley colombiana que protege los derechos de los consumidores financieros y regula las prácticas de cobranza de las entidades vigiladas?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Ley 1328 de 2009.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Decreto 663 de 1993.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ley 1581 de 2012.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ley 1266 de 2008.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -295,18 +331,29 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            'Durante una visita de seguimiento, el deudor manifiesta hostilidad. ¿Cuál es la respuesta más adecuada del gestor de cartera?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Mantener la calma, recordar el propósito constructivo y finalizar el contacto con cortesía si escala.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Criterios de otorgamiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Ignorar al deudor y retirarse sin registrar la gestión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Política de provisiones.',
               esCorrecta: false,
             },
           ],
@@ -316,19 +363,30 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Qué tipo de contacto con el deudor favorece los acuerdos de pago más sólidos en etapa de mora media?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El mensaje de texto automatizado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'El correo electrónico formal.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La visita presencial domiciliaria o al lugar de trabajo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Definir los horarios de atención al público de cada entidad.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,18 +395,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿A partir de cuántos días de mora una obligación crediticia debe clasificarse en categoría D según la normativa de la Superintendencia Financiera?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: '61 días.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: '91 días.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: '181 días.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: '31 días.',
               esCorrecta: false,
             },
           ],
@@ -358,18 +426,32 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Cuál es el propósito principal del Sistema de Administración del Riesgo Crediticio (SARC) en las entidades financieras?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Identificar, medir, controlar y monitorear el riesgo de crédito de manera sistemática.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Regular las tasas de interés aplicadas a cada modalidad de crédito.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Contradecir al deudor de inmediato y exigir el pago nuevamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Aceptar la afirmación del deudor sin verificar información.',
               esCorrecta: false,
             },
           ],
@@ -379,19 +461,31 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'Cuando un deudor dice "ya pagué esa cuota", ¿cuál es la acción correcta del gestor de cartera?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto:
+                'Verificar en el sistema si existe el registro del pago y solicitar el comprobante al deudor.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto:
+                'Escalar al área jurídica sin revisar la situación previamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Saldo total y distribución por rango de mora.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Principales deudores y su perfil económico.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +494,201 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            'En la negociación con un deudor estratégico con mora avanzada, ¿qué documento debe formalizarse para garantizar el acuerdo de pago?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto:
+                'Una comunicación verbal que recuerde los compromisos acordados en la visita.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Un mensaje de WhatsApp con los compromisos acordados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Un acuerdo escrito firmado por el deudor con compromisos, plazos y consecuencias del incumplimiento.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Un correo electrónico enviado por el gestor al deudor.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Cuál de los principios de servicio al cliente se refiere a contactar al deudor antes de que la mora se agrave para ofrecer soluciones tempranas?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Claridad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Empatía.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Oportunidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Eficiencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Qué efecto produce el deterioro de la cartera sobre el estado de resultados de una entidad financiera?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Aumenta los ingresos por intereses y reduce las provisiones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Reduce los ingresos por intereses e incrementa el gasto por provisiones simultáneamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Solo afecta el balance, sin ningún impacto sobre el estado de resultados',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Incrementa los ingresos operacionales por el cobro de intereses de mora.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la diferencia entre el castigo contable de cartera y la condonación de la deuda?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Son equivalentes: el castigo contable implica que la deuda queda totalmente perdonada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El castigo contable elimina la deuda del balance, pero la entidad puede continuar gestionando el cobro extrajudicialmente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La condonación permite recuperar la cartera castigada, pero el castigo contable no.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El castigo contable solo aplica a créditos comerciales, no a créditos de consumo.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué información debe contener el informe de seguimiento de cartera presentado al área directiva de una entidad financiera?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Únicamente el listado de deudores con mora superior a ciento ochenta días.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'El número de llamadas realizadas por cada gestor durante el período.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Los indicadores de gestión, el análisis de cumplimiento de metas y las acciones de mejora propuestas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Solo los casos en los que se logró acuerdo de pago durante el período.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿En qué consiste la reestructuración de un crédito en el contexto de la gestión de cartera?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'En la condonación total del saldo adeudado por el deudor como acto de buena voluntad de la entidad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'En la modificación de las condiciones originales del crédito para adaptarlas a la capacidad de pago actual del deudor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'En el traslado del crédito a otra entidad financiera para que continúe la gestión de cobro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'En la suspensión temporal del cobro de intereses mientras el deudor regulariza su situación.',
               esCorrecta: false,
             },
           ],
