@@ -86,17 +86,23 @@ figcaption
   &-13
     background-color: $white
   &-14
-    border-left-color: #8CE6FE
+    border-left-color: #FBDED8
   &-15
-    background-color: #C0F6F2
+    background-color: #FBDED8
   &-16
-    background-color: #C9E8F7
+    background-color: #ECDCF5
+
 
   &-17  //custom para tarjetas over
     background-color: #F2E4EF
   &-17:hover
      background-color: #5AF6EA !important
-
+  &-18
+    background-color: #FDF3E6
+  &-19
+    background-color: #CFA9E6
+  &-20
+    background-color: #D7F8DB
   //borde redondeado---------
   &-r8
     border-radius: 8px
@@ -326,11 +332,16 @@ figcaption
       background-image: none !important
       background-color: #120924 !important
       padding: 20px !important
-
-
   
   &-61
     background-color: #CCDBE6 !important
+
+//Margin text left
+.ml-text
+  margin-left: -2rem !important
+  @media (max-width: 767px)
+    margin-left: 0 !important
+  
 
 //Títulos con íconos-----------------
 .titulo-tres
@@ -459,10 +470,10 @@ figcaption
   background-color: #DAFE60
 
 .acordion__accion__btn--a
-  background-color: #DAFE60 !important
+  background-color: #7BE888 !important
 
 .acordion__activo
-  background-color: #C9E8F7 !important
+  background-color: #ECDCF5 !important
   color: black !important
   h3
     color: black !important
@@ -472,11 +483,23 @@ figcaption
     color: black 
 
 //Custom Acordeon tipo b
-.acordion__accion__btn--b
-  border: none
-  background: #9C2424
-  i
-    color: $white !important
+.acordion
+  &.color-primario
+    .acordion__activo 
+      background-color: #ECDCF5 !important
+      color: black !important    
+    
+    .acordion__accion__btn--b
+      color: $black
+      background-color: #7BE888 !important
+      border-color: #7BE888
+
+    .indicador__container
+      transform: translateY(15px)
+
+    .tarjeta--azul
+      background-color: #D7F8DB
+
 
 ////////////////
 
@@ -534,14 +557,30 @@ figcaption
   display: inline-block
   max-width: 100%
 
+////////////////
 .tabs-c__tab 
-  background-color: #FFF7E2 !important
+  background-color: #D7F8DB
+
+.tabs-c__tab--active 
+  background-color: $white !important
+  font-weight: bold
+
+.tabs-c__header 
+  margin-bottom: 0px
+
+// Color de la línea y el borde de la pestaña activa
+.tabs-c.color-acento-contenido .tabs-c__tab--active 
+  border-top-color: #ac064b00 !important
+  border-bottom: 5px solid #7BE888 !important
+
+.tabs-c.color-acento-contenido .tabs-c__tab--active:before 
+  border-top-color: #7BE888
 
 ///cajones de color
 .cajon.color1:before          //color de la pestaña del cajón
-  background-color: #68C6EA
+  background-color: #FBDED8
 .cajon.color1
-  background-color: #C9E8F7 //color del cajón
+  background-color: #FDF2EF //color del cajón
 
 .cajon.color2:before
   background-color: #68EAE0
@@ -557,6 +596,9 @@ figcaption
   background-color: #DAFE60
 .cajon.color4
   background-color: #F8FFDF
+
+.img-center
+  justify-items: center !important
 
 /*-----------------------------FIN DE ESTILOS BASE -------------------------------*/
 
@@ -753,16 +795,16 @@ figcaption
   &.color-primario
     .linea-tiempo-d__item--selected
       .linea-tiempo-d__item__number
-        background-color: #DFEFFF
+        background-color: #7BE888
         color: $black
       .linea-tiempo-d__item__content
-        background-color: #DFEFFF !important
+        background-color: #ECDCF5 !important
         color: textColor($color-acento-contenido)
     .linea-tiempo-d__item__number
-       background-color: $color-acento-botones
+       background-color: #D7F8DB
        color: textColor($color-acento-botones)
     .linea-tiempo-d__item__content
-      background-color: #EEE7E7
+      background-color: #D7F8DB
       color: textColor($color-acento-contenido)
 
 .linea-bold
@@ -1035,7 +1077,7 @@ figcaption
     border-top: 5px solid
     color: $table-header-color
     background-color: $table-header-bg-color
-    border-color: #FFEEBC !important
+    border-color: #FF984A !important
 
 //Tarjeta izquierda
 .tarjeta-img-izq 
