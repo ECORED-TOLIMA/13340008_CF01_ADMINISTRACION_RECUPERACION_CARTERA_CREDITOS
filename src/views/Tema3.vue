@@ -687,6 +687,7 @@
                 p.p-4.bg-16.bg-r8 Además, el seguimiento y control deben apoyarse en registros completos y verificables. Cada contacto, compromiso, pago, incumplimiento o decisión de escalamiento debe quedar documentado en el sistema de información de la entidad, debido a que estos datos sirven como soporte para evaluar la gestión y definir nuevas acciones.
 
     .row.align-items-center.mt-4.justify-content-center
+      p En este proceso se pueden aplicar las siguientes acciones prácticas:
       .col-lg-10
         .row.p-3.bg-16.bg-r8.align-items-end
           .col-12
