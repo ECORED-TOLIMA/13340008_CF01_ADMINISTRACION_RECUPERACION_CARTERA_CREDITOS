@@ -68,7 +68,7 @@ figcaption
   &-4
     background-color: #D2E5F3
   &-5
-    background-color: #F3F9FC
+    background-color: #FAF6FD
   &-6
     background-color: #394C5A
   &-7
@@ -78,7 +78,7 @@ figcaption
   &-9
     background-color: #59351A
   &-10
-    background-color: #FFEDB6
+    background-color: #D7F8DB
   &-11
     background-color: #FFF7E9
   &-12
@@ -112,8 +112,9 @@ figcaption
     border-radius: 40px
   
   //Fondos ------------------
+  //-Fondo Slyder tipo b
   &-01
-    //background-image: url(../assets/curso/temas/bg1.png)
+    background-image: url(../assets/curso/temas/bg3.jpg)
     background-repeat: no-repeat
     background-size: cover
     margin-inline: -3.2rem !important
@@ -171,18 +172,15 @@ figcaption
     background-size: cover
     //margin-inline: -6.2rem !important
 
-  &-code1
-    //background-image: url(../assets/curso/temas/bg-code1.svg)
+  &-09
+    background-image: url(../assets/curso/temas/bg2.png)
     background-repeat: no-repeat
-    background-position: top center
-    background-size: 100% 100% 
-    padding: 100px 40px 40px 40px !important  
-    border-radius: 15px
-    overflow: hidden
+    background-size: cover
+    margin-inline: -6.2rem !important
     
     @media (max-width: 767px) 
       background-image: none !important
-      background-color: #120924 !important
+      //background-color: #120924 !important
       padding: 20px !important
 
   &-code2
@@ -392,13 +390,13 @@ figcaption
       color: white !important
 
 .slyder-a__tipo-b .slyder-a__btn--atrs
-  background-color: #DAFE60
+  background-color: #7BE888
   @media screen and (max-width: $bp-max-lg)
     width: 30px
     height: 30px
 
 .slyder-a__tipo-b .slyder-a__btn--sigt
-  background-color: #DAFE60
+  background-color: #7BE888
   @media screen and (max-width: $bp-max-lg)
     width: 30px
     height: 30px
@@ -407,7 +405,7 @@ figcaption
   border: none
 
 .slyder-a__bullets__item--active
-  background-color: #DAFE60 !important
+  background-color: #7BE888 !important
   border: none
 
 .slyder-a__bullets__item
@@ -586,9 +584,9 @@ figcaption
   background-color: #FDF2EF //color del cajón
 
 .cajon.color2:before
-  background-color: #68EAE0
+  background-color: #ECDCF5
 .cajon.color2
-  background-color: #C0F6F2
+  background-color: #FAF6FD
 
 .cajon.color3:before
   background-color: #FE93C4
@@ -1190,7 +1188,7 @@ figcaption
 
 // Imágen inforgráfica
 .img-infografica.color-primario .img-infografica__item__dot:before, .img-infografica.color-primario .img-infografica__item__dot:after,
-  background-color: #AE0000
+  background-color: #7BE888
 .img-infografica.color-primario .img-infografica__item__dot:after,
   color: #ffffff
 .img-infografica__item__dot, .img-infografica-b__item__dot
@@ -1200,3 +1198,15 @@ figcaption
 .img-infografica__item__numero
   position: absolute
   left: 70%
+
+/* Clase personalizada para el separador */
+.border-dashed-bottom
+  border-bottom: 1px dashed #53435C !important; //Ajusta el color según el tono de tu fondo */
+
+
+/* Eliminar el borde del último elemento para que no se vea doble al final */
+.row.border-dashed-bottom:last-child 
+  border-bottom: none !important
+
+
+  
