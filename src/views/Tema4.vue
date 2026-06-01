@@ -74,7 +74,7 @@
                   img.icon-normal(src='@/assets/curso/tema4/5.svg', style='width: 80px')
                   img.icon-hover(src='@/assets/curso/tema4/9.svg', style='width: 80px')
           h4.text-center Comunicación en cobranza
-          p Fcilita el contacto claro, respetuoso y verificable entre el gestor y el deudor. 
+          p Facilita el contacto claro, respetuoso y verificable entre el gestor y el deudor. 
       
       .col-lg-3.mb-4.mb-lg-0
         //-Tarjeta 4
@@ -252,6 +252,218 @@
     #t_4_3.titulo-segundo.color-acento-contenido
       h2 4.3 Comunicación en cobranza
 
+    p La comunicación en cobranza es una habilidad técnica y relacional que permite orientar el diálogo con el deudor de manera clara, respetuosa y efectiva. En este proceso, el gestor debe informar el estado de la obligación, escuchar la situación del cliente y presentar alternativas de pago acordes con las políticas institucionales.
+
+    .row.justify-content-center
+      .col-lg-10
+        .row.align-items-center.bg-5
+          .col-lg-8.bg-5.bg-r8.p-3
+        
+            figure
+              img(src="@/assets/curso/tema4/20.svg", alt="", style="width: 80px")
+        
+            p.mt-3 Asimismo, una comunicación adecuada ayuda a prevenir malentendidos, reducir tensiones y fortalecer la disposición del deudor para negociar. Por esta razón, cada contacto debe prepararse con información actualizada, tono profesional y propósito definido.
+          .col-lg-4.d-none.d-lg-block
+            figure
+              img(src='@/assets/curso/tema4/21.svg', alt='', style="width: 390px; margin-left:13px")
+
+    p.mt-3 Para desarrollar una comunicación efectiva durante la cobranza, se deben tener en cuenta las siguientes acciones:
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        LineaTiempoD.color-primario.linea-bold
+          //- Primer paso
+          .row(numero="1" titulo="Preparar el contacto")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en revisar previamente el estado de la obligación, los pagos realizados, los compromisos anteriores y la información disponible del deudor. Esta preparación permite que el gestor dialogue con seguridad y proponga alternativas coherentes con la situación del crédito.
+                
+                p Ejemplo: antes de llamar, el gestor verifica el saldo vencido, los días de mora y el último acuerdo registrado.
+                
+          //- Segundo paso
+          .row(numero="2" titulo="Abrir la conversación")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en iniciar el contacto con una presentación clara, respetuosa y profesional. El gestor debe indicar su nombre, la entidad que representa, verificar la identidad del deudor y explicar el propósito de la comunicación.
+                
+                p Ejemplo: el gestor saluda, confirma que habla con el titular del crédito e informa que el contacto busca revisar alternativas para normalizar la obligación. 
+                
+          //- Tercer paso
+          .row(numero="3" titulo="Escuchar activamente")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en prestar atención a la explicación del deudor, sin interrumpir ni emitir juicios. Esta acción permite comprender la causa del incumplimiento y valorar si existe capacidad real para proponer un acuerdo de pago.
+                
+                p Ejemplo: si el deudor manifiesta una reducción temporal de ingresos, el gestor escucha la situación antes de plantear una alternativa.
+                
+          //- Cuarto paso
+          .row(numero="4" titulo="Informar con claridad")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en explicar el estado de la obligación con lenguaje sencillo, preciso y verificable. La información debe incluir saldo, días de mora, costos asociados, consecuencias del incumplimiento y opciones disponibles.
+                
+                p Ejemplo: el gestor informa el valor vencido, la fecha límite de pago y las alternativas autorizadas por la entidad. 
+                
+          //- Quinto paso
+          .row(numero="5" titulo="Proponer soluciones")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en presentar alternativas de pago viables, ajustadas a la capacidad del deudor y a las políticas institucionales. La propuesta debe ser concreta, realista y fácil de comprender para evitar nuevos incumplimientos.
+                
+                p Ejemplo: el gestor propone un pago parcial inicial y un acuerdo con fechas definidas para cancelar el saldo restante. 
+                
+          //- Sexto paso
+          .row(numero="6" titulo="Cerrar y registrar")
+            .col-md-12.mb-4.mb-md-0
+              .col-lg-12.mb-lg-0
+                p Consiste en confirmar los compromisos acordados, informar los pasos siguientes y dejar evidencia de la gestión realizada. Este registro permite hacer seguimiento, verificar el cumplimiento y mantener la trazabilidad del proceso.
+                
+                p Ejemplo: el gestor registra la fecha del acuerdo, el valor pactado, el canal de contacto y la próxima fecha de seguimiento.
+
+    .row.align-items-center.justify-content-center.mt-3
+      .col-lg-12
+        .row.justify-content-center
+          .col-lg-12(data-aos="fade-down")
+            .row.d-flex.align-items-center(data-aos="fade-right")
+              .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                figure.m-0.p-0.w-100.h-100.d-flex
+                  img(src='@/assets/curso/tema4/22.svg', alt='', class="w-100 h-100 object-fit-cover")
+              
+              .col-lg.p-4
+                p Estas acciones permiten que la comunicación en cobranza tenga un orden claro y una finalidad concreta. De esta manera, el gestor evita respuestas improvisadas, fortalece la confianza y deja evidencia de cada interacción.
+
+                p.p-3.bg-8.bg-r8 Aunque una comunicación clara facilita el contacto con el deudor, durante la gestión pueden presentarse situaciones de tensión, desacuerdo o resistencia. Por esta razón, el siguiente tema aborda el manejo de situaciones difíciles, con el fin de reconocer criterios de actuación que permitan mantener la serenidad, verificar la información y orientar la conversación hacia una solución viable.
+
+    separador
+    #t_4_4.titulo-segundo.color-acento-contenido
+      h2 4.4 Manejo de situaciones difíciles
+    
+    p En el proceso de cobranza pueden presentarse situaciones en las que el deudor manifiesta inconformidad, resistencia al pago, dudas sobre la obligación o dificultades económicas reales. Ante estos casos, el gestor de cartera debe actuar con serenidad, respeto y criterio profesional, sin perder el propósito de la gestión.
+
+    .row.align-items-center.justify-content-center
+      .col-lg-10
+        .row.justify-content-center
+          .col-lg-12(data-aos="fade-down")
+            .row.align-items-start.p-4.bg-15.bg-r8
+              .col-lg-1.mb-lg-0.mb-4
+                figure(data-aos="fade-down")
+                  img(src='@/assets/curso/tema4/23.svg', style='width: 100px').m-auto
+              
+              .col
+                p Asimismo, el manejo de situaciones difíciles requiere verificar la información antes de responder. Por ello, es necesario revisar el estado de la obligación, escuchar la versión del deudor y confirmar los soportes disponibles, de manera que la respuesta sea clara, objetiva y coherente con las políticas institucionales.
+
+    p.mt-3 En el manejo de situaciones difíciles, el gestor de cartera debe actuar con criterio, respeto y control emocional. Para ello, es importante reconocer algunas orientaciones básicas que permiten mantener el diálogo, proteger los derechos del consumidor financiero y facilitar una gestión enfocada en soluciones como:
+    
+    .row.justify-content-center.mt-4
+      .col-lg-3.mb-4.mb-lg-0
+        //-Tarjeta 1
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-17.h-100.tarjeta-hover
+          .row.justify-content-center.mb-3
+            .col-auto
+              .circle-morado
+                figure.icono-hover(data-aos="zoom-in")
+                  img.icon-normal(src='@/assets/curso/tema4/24.svg', style='width: 80px')
+                  img.icon-hover(src='@/assets/curso/tema4/28.svg', style='width: 80px')
+          h4.text-center Atención sin presión
+          p Evitar amenazas, presiones indebidas o expresiones que afecten al deudor. 
+
+      .col-lg-3.mb-4.mb-lg-0
+        //-Tarjeta 2
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-17.h-100.tarjeta-hover
+          .row.justify-content-center.mb-3
+            .col-auto
+              .circle-morado
+                figure.icono-hover(data-aos="zoom-in")
+                  img.icon-normal(src='@/assets/curso/tema4/25.svg', style='width: 80px')
+                  img.icon-hover(src='@/assets/curso/tema4/29.svg', style='width: 80px')
+          h4.text-center Diálogo respetuoso
+          p Mantener una comunicación serena que permita escuchar y orientar la conversación.
+
+      .col-lg-3.mb-4.mb-lg-0
+        //-Tarjeta 3
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-17.h-100.tarjeta-hover
+          .row.justify-content-center.mb-3
+            .col-auto
+              .circle-morado
+                figure.icono-hover(data-aos="zoom-in")
+                  img.icon-normal(src='@/assets/curso/tema4/26.svg', style='width: 80px')
+                  img.icon-hover(src='@/assets/curso/tema4/30.svg', style='width: 80px')
+          h4.text-center Soluciones viables
+          p Proponer alternativas de pago acordes con la situación real del deudor. 
+      
+      .col-lg-3.mb-4.mb-lg-0
+        //-Tarjeta 4
+        .tarjeta.clr-paleYellow.p-4.text-center.bg-17.h-100.tarjeta-hover
+          .row.justify-content-center.mb-3
+            .col-auto
+              .circle-morado
+                figure.icono-hover(data-aos="zoom-in")
+                  img.icon-normal(src='@/assets/curso/tema4/27.svg', style='width: 80px')
+                  img.icon-hover(src='@/assets/curso/tema4/31.svg', style='width: 80px')
+          h4.text-center Registro de compromisos
+          p Dejar evidencia clara de los acuerdos y acciones definidas para el seguimiento.
+
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color1.p-4
+              p Estas orientaciones permiten atender situaciones difíciles con mayor seguridad y responsabilidad. De esta manera, la gestión de cobranza conserva su propósito, fortalece la confianza y facilita el seguimiento de los compromisos adquiridos.
+
+    p.mt-3 Para orientar la actuación del gestor de cartera, en la siguiente tabla se presentan algunas situaciones frecuentes durante la cobranza, la estrategia recomendada para abordarlas y las conductas que deben evitarse en cada caso.
+
+    .row.justify-content-center.mt-4
+      .col-lg-auto
+        .row.justify-content-center.mt-2
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Tabla 6.
+              span Estrategias para manejar situaciones difíciles en cobranza
+
+            .tabla-a.color-acento-contenido
+              table
+                thead(style="background-color: #FF984A")
+                  tr
+                    th(style="width: 25%;") Situación
+                    th Estrategia recomendada
+                    th Qué evitar
+                tbody
+                  tr(style="background-color: #F6F6F6")
+                    th.text-start "No tengo dinero para pagar".
+                    td.text-start Escuchar la situación del deudor y proponer un acuerdo según su capacidad de pago.
+                    td.text-start Presionar al deudor con pagos que no puede cumplir.
+                  tr
+                    th.text-start "No reconozco esa deuda".
+                    td.text-start Presentar soportes de la obligación y verificar la información del crédito.
+                    td.text-start Insistir sin aportar evidencia clara.
+                  tr(style="background-color: #F6F6F6")
+                    th.text-start "Ya pagué".
+                    td.text-start Revisar el sistema y solicitar el comprobante de pago.
+                    td.text-start Contradecir al deudor sin verificar primero.
+                  tr
+                    th.text-start Hostilidad verbal.
+                    td.text-start Mantener la calma, usar un tono respetuoso y cerrar el contacto si la situación escala.
+                    td.text-start Responder con agresividad o amenazas.
+                  tr(style="background-color: #F6F6F6")
+                    th.text-start Solicitud de aplazamiento.
+                    td.text-start Definir una nueva fecha de pago y programar seguimiento.
+                    td.text-start Aceptar aplazamientos sin fecha ni compromiso.
+                    
+    .row.justify-content-center.mt-3
+      .col-lg-10
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color1.p-4
+              p Estas estrategias permiten atender situaciones difíciles sin perder el propósito de la gestión. Por ello, el gestor debe actuar con respeto, verificar la información antes de responder y registrar cada compromiso, de acuerdo con las políticas institucionales y los derechos del consumidor financiero.
+
+    .row.align-items-start.mt-4
+      .col-lg-1.mb-lg-0.mb-4
+        figure(data-aos="fade-down")
+          img(src='@/assets/curso/tema4/32.svg', style='width: 100px').m-auto
+      
+      .col
+        p La gestión adecuada de las situaciones difíciles permite conservar el propósito de la cobranza, proteger la relación con el deudor y actuar conforme a las políticas institucionales. A partir de esta base, se profundiza en el seguimiento, la negociación y la cobranza como acciones necesarias para verificar compromisos, construir acuerdos viables y fortalecer la recuperación de la cartera.
 
 </template>
 
