@@ -397,6 +397,8 @@
       .col
         p Además, la atención al deudor debe ajustarse al canal utilizado y a la etapa de mora de la obligación. No es igual realizar una llamada preventiva antes del vencimiento que adelantar una visita de seguimiento en una mora media. Por esta razón, el gestor debe adaptar su comunicación sin perder el propósito de recuperación ni incumplir los límites definidos por la normativa vigente.
 
+    p.mt-3 En este proceso se pueden aplicar las siguientes acciones:
+
     .row.align-items-center.justify-content-center
       .col-lg-10
         .row.justify-content-center.mt-4        
