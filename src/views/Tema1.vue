@@ -190,7 +190,7 @@
               img(src='@/assets/curso/tema1/16.png', alt='Imagen VIH').m-auto
 
           .col-md-8
-            p.mb-4 EComo resultado de las reformas, todas las entidades vigiladas deben contar con un SARC que les permita medir, monitorear y controlar su exposición al riesgo de manera sistemática. Este sistema obliga al gestor de cartera a actuar con criterios técnicos definidos, registrar cada gestión con trazabilidad y reportar periódicamente el estado del portafolio a los organismos de control.
+            p.mb-4 Como resultado de las reformas, todas las entidades vigiladas deben contar con un SARC que les permita medir, monitorear y controlar su exposición al riesgo de manera sistemática. Este sistema obliga al gestor de cartera a actuar con criterios técnicos definidos, registrar cada gestión con trazabilidad y reportar periódicamente el estado del portafolio a los organismos de control.
 
     .row.justify-content-center.mt-4
       .col-lg-10
@@ -374,10 +374,10 @@
           AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul").color-primario
             //-1ra pestaña
             .row(titulo="Planeación")
-              p La articulación con el Instituto Nacional de Medicina Legal y Ciencias Forenses (INMLCF) debe desarrollarse bajo criterios de oportunidad, claridad de competencias y respeto por la autonomía de la víctima.
-              
+              p Consiste en definir objetivos de recuperación, diseñar estrategias por segmento de deudores y establecer un cronograma con responsables y plazos. Sin diagnóstico preciso, los objetivos pierden fundamento.
+
               p Ejemplo: el jefe de cartera detecta que el 65 % de la mora se concentra en microcrédito, asigna gestores especializados y programa visitas domiciliarias para la primera semana del mes.
-              
+
             //-2da pestaña  
             .row(titulo="Organización")
               p Implica distribuir la cartera entre los gestores según su perfil, garantizar las herramientas tecnológicas y asegurar los recursos logísticos para ejecutar el plan.
@@ -521,6 +521,9 @@
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema1/26.png', alt='', class="w-100 h-100 object-fit-cover")
 
+    p En la siguiente tabla se presentan las cinco categorías de calificación de la cartera, con las características de cada una y el porcentaje de provisión que la normativa exige constituir.
+    
+    
     .row.justify-content-center
       .col-lg-auto
         .row.justify-content-center

@@ -247,19 +247,19 @@
 
             ul.lista-ul--color
               li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                p.mb-0 Seguimiento de obligaciones: permite revisar el estado de los créditos asignados, identificar la etapa de mora y priorizar las acciones de gestión. 
+                p.mb-0 #[b Seguimiento de obligaciones]: permite revisar el estado de los créditos asignados, identificar la etapa de mora y priorizar las acciones de gestión. 
                 
               li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                p.mb-0 Contacto con el deudor: facilita la comunicación por los canales autorizados, como llamadas, correos electrónicos, mensajes o visitas de seguimiento.
+                p.mb-0 #[b Contacto con el deudor]: facilita la comunicación por los canales autorizados, como llamadas, correos electrónicos, mensajes o visitas de seguimiento.
 
               li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                p.mb-0 Negociación de acuerdos: permite proponer alternativas de pago viables, de acuerdo con la capacidad económica del deudor y las políticas institucionales. 
+                p.mb-0 #[b Negociación de acuerdos]: permite proponer alternativas de pago viables, de acuerdo con la capacidad económica del deudor y las políticas institucionales. 
 
               li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                p.mb-0 Registro de gestiones: asegura la trazabilidad del proceso mediante la documentación clara de cada contacto, compromiso o resultado obtenido.
+                p.mb-0 #[b Registro de gestiones]: asegura la trazabilidad del proceso mediante la documentación clara de cada contacto, compromiso o resultado obtenido.
 
               li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                p.mb-0 Escalamiento de casos: permite remitir las obligaciones que requieren una intervención superior, jurídica o especializada.
+                p.mb-0 #[b Escalamiento de casos]: permite remitir las obligaciones que requieren una intervención superior, jurídica o especializada.
 
         p.mt-3 Estas responsabilidades evidencian que la gestión de cartera no se limita a realizar cobros. Por el contrario, exige análisis, comunicación, seguimiento y documentación permanente para garantizar una recuperación organizada, ética y coherente con los lineamientos de la entidad.
 
@@ -337,6 +337,11 @@
     .row.justify-content-center
       .col-lg-10
         p.mt-3 La aplicación de estas acciones fortalece la gestión profesional de la cartera, porque permite actuar con información actualizada, prevenir errores y mantener control sobre cada obligación. De esta manera, el gestor contribuye a la recuperación efectiva de los recursos y al cumplimiento de las políticas institucionales.
+
+    .row.justify-content-center
+      .col-lg-10
+        p.p-4.bg-15 Una vez identificadas las responsabilidades del gestor, es necesario revisar las buenas prácticas que orientan la atención al deudor. Estas prácticas permiten que cada contacto se desarrolle con respeto, claridad y propósito de solución.
+
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido

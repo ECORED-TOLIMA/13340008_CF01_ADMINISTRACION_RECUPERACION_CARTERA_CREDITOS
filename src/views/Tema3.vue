@@ -41,7 +41,7 @@
                   .row.justify-content-center.mb-3
                     .col-7
                       img(src='@/assets/curso/tema3/4.svg', alt='').img100.m-auto
-                  p.mb-0 #[b Diagnóstico]: Definición inicial del procedimiento dentro del esquema de la base de datos, donde se establece su nombre, parámetros, lógica interna y propósito funcional.
+                  p.mb-0 #[b Diagnóstico]: definición inicial del procedimiento dentro del esquema de la base de datos, donde se establece su nombre, parámetros, lógica interna y propósito funcional.
 
                 //Tarjeta 2     
                 .tarjeta.bg-7.p-4
@@ -772,22 +772,21 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10.bg-15.p-4.bg-r8
-        // Definimos un mixin para no repetir código
-        mixin item-lista(texto)
+        // El mixin ahora recibe título y descripción por separado
+        mixin item-lista(titulo, descripcion)
           .row.align-items-center.py-3.border-dashed-bottom
-            .col-lg-1.col-3.d-flex.d-none.d-lg-block
+            .col-lg-1.col-3.d-none.d-lg-block
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/tema3/39.svg', style='width: 50px').m-auto
             .col
-              p.mb-0= texto
+              p.mb-0 #[b #{titulo}]: #{descripcion}
 
-        // Llamamos al mixin para cada elemento
-        +item-lista("Centralización de información: permite reunir en un solo sistema los datos relevantes de las obligaciones, los pagos, los contactos y los acuerdos.")
-        +item-lista("Priorización de casos: facilita identificar las obligaciones que requieren atención inmediata por monto, mora, riesgo o posibilidad de deterioro.")
-        +item-lista("Automatización de tareas: ayuda a programar recordatorios, actividades de seguimiento y alertas asociadas al vencimiento de compromisos.")
-        +item-lista("Soporte para decisiones: permite generar información útil para analizar tendencias, evaluar estrategias y definir acciones de mejora.")
-        +item-lista("Trazabilidad del proceso: conserva el historial de las acciones realizadas, lo que facilita la revisión interna y el control de la gestión.")
-
+        // Llamamos al mixin pasando el título y la descripción
+        +item-lista("Centralización de información", "permite reunir en un solo sistema los datos relevantes de las obligaciones, los pagos, los contactos y los acuerdos.")
+        +item-lista("Priorización de casos", "facilita identificar las obligaciones que requieren atención inmediata por monto, mora, riesgo o posibilidad de deterioro.")
+        +item-lista("Automatización de tareas", "ayuda a programar recordatorios, actividades de seguimiento y alertas asociadas al vencimiento de compromisos.")
+        +item-lista("Soporte para decisiones", "permite generar información útil para analizar tendencias, evaluar estrategias y definir acciones de mejora.")
+        +item-lista("Trazabilidad del proceso", "conserva el historial de las acciones realizadas, lo que facilita la revisión interna y el control de la gestión.")
 
     .row.justify-content-center
       .col-lg-10

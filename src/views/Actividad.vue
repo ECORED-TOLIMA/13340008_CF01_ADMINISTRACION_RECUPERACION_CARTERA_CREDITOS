@@ -21,7 +21,7 @@ export default {
         'Cartera en acción: demuestra tu dominio en gestión y recuperación.',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar el nivel de apropiación de los conceptos fundamentales sobre administración, recuperación de cartera y procesos de cobranza en el sector financiero colombiano.',
+        '<b> Objetivo:</b> evaluar el nivel de apropiación de los conceptos fundamentales sobre administración, recuperación de cartera y procesos de cobranza en el sector financiero colombiano.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',

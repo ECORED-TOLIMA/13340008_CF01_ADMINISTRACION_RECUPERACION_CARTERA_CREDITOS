@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Administración básica de cartera
+      h1 Seguimiento, negociación y cobranza
     
     .row.align-items-start.mt-4
       .col-lg-1.mb-lg-0.mb-4
@@ -189,7 +189,7 @@
 
 
     .row.align-items-center.justify-content-center.mt-4
-      p En la elaboración del diagnóstico se pueden desarrollar las siguientes acciones:
+      p Para orientar este proceso, se presentan las siguientes técnicas aplicadas a la negociación en cobranza:
       
       .col-lg-12
         SlyderF(columnas="col-lg-6 col-xl-4")
@@ -406,7 +406,8 @@
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema5/20.svg', alt='', class="w-100 h-100 object-fit-cover")
               .col-lg.p-4
-                p Los planes de recuperación de cartera son instrumentos de gestión que permiten organizar las acciones necesarias para prevenir el deterioro de las obligaciones y recuperar los recursos comprometidos en créditos vencidos. En el sector financiero colombiano, estos planes deben construirse con base en información confiable, políticas institucionales claras y criterios técnicos que orienten la toma de decisiones.
+                p En consecuencia, el informe de cartera no solo cumple una función administrativa, sino también estratégica. A través de este documento, la entidad puede evaluar la efectividad de las acciones realizadas, sustentar decisiones de seguimiento y fortalecer la recuperación responsable de las obligaciones.
+
                 .row.align-items-start.mt-4.bg-15.bg-r8.p-3
                   .col-lg-2.mb-lg-0.mb-4
                     figure(data-aos="fade-down")
