@@ -41,7 +41,7 @@
                   .row.justify-content-center.mb-3
                     .col-7
                       img(src='@/assets/curso/tema3/4.svg', alt='').img100.m-auto
-                  p.mb-0 #[b Diagnóstico]: definición inicial del procedimiento dentro del esquema de la base de datos, donde se establece su nombre, parámetros, lógica interna y propósito funcional.
+                  p.mb-0 #[b Diagnóstico]: permite conocer el estado actual del portafolio, los saldos vencidos, los rangos de mora y los principales riesgos. 
 
                 //Tarjeta 2     
                 .tarjeta.bg-7.p-4
@@ -101,7 +101,7 @@
             .row(titulo="Analizar el portafolio")
               p Consiste en revisar la composición general de la cartera para reconocer saldos vigentes, saldos vencidos, concentración de mora, tipos de crédito y segmentos con mayor deterioro. Este análisis permite comprender dónde se encuentra el principal riesgo y qué obligaciones requieren intervención prioritaria.
 
-              p Ejemplo: el jefe de cartera detecta que el 65 % de la mora se concentra en microcrédito, asigna gestores especializados y programa visitas domiciliarias para la primera semana del mes.
+              p #[b Ejemplo:] identificar que el mayor valor vencido se concentra en créditos de consumo con mora entre 31 y 60 días, lo que permite orientar acciones preventivas antes de que avancen a una etapa de mayor riesgo. 
               
             //-2da pestaña  
             .row(titulo="Definir prioridades")
@@ -301,6 +301,12 @@
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema3/13.png', alt='', class="w-100 h-100 object-fit-cover")
 
+    p.mt-4 En este sentido, el diagnóstico debe organizar la información de manera clara para facilitar su análisis. Cuando los datos se clasifican correctamente, el equipo de cartera puede priorizar los casos críticos, asignar recursos con mayor precisión y formular acciones coherentes con la situación del portafolio.
+
+    p A continuación, se presentan los principales aspectos que debe considerar el diagnóstico de la cartera:
+
+
+
     .row.align-items-center.justify-content-center
       .col-lg-12
         .row.justify-content-center
@@ -442,7 +448,7 @@
           .col-lg-12(data-aos="fade-down")
             .row.d-flex.align-items-center(data-aos="fade-right")  
               .col-lg.p-4
-                p La elaboración de un plan de recuperación de cartera sigue un proceso estructurado que permite relacionar el diagnóstico de la situación con las acciones que se van a ejecutar. Esta organización ayuda a que la gestión no dependa de decisiones aisladas, sino de una ruta clara, verificable y coherente con la política institucional evitando decisiones aisladas o improvisadas.
+                p La elaboración de un plan de recuperación de cartera sigue un proceso estructurado que permite relacionar el diagnóstico de la situación con las acciones que se van a ejecutar. Esta organización ayuda a que la gestión no dependa de decisiones aisladas, sino de una ruta clara, verificable y coherente con la política institucional, evitando decisiones aisladas o improvisadas.
 
                 .row.align-items-start.bg-16.p-3
                   .col-lg-2.mb-lg-0.mb-4
@@ -613,64 +619,68 @@
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema3/29.png', alt='', class="w-100 h-100 object-fit-cover")
 
+                              
+
     .row.bg-01
       .col-12
         .p-5
-          .row.align-items-center.p-4
-            SlyderA.p-4.bg-13.bg-r8(tipo="b").mt-4
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Monitoreo de alertas tempranas]: permite identificar señales que pueden anticipar el incumplimiento de una obligación. Estas señales pueden relacionarse con retrasos frecuentes, solicitudes de prórroga, disminución de pagos, cambios en la actividad económica del deudor o dificultades reportadas durante el contacto.
-                  p Ejemplo: si un cliente solicita ampliar la fecha de pago en varias ocasiones, el gestor puede registrar la alerta, revisar el historial del crédito y proponer una acción preventiva antes de que la obligación avance a una etapa de mayor riesgo.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/30.png', style='width: 572px')
-            
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Cobranza preventiva]: consiste en contactar al deudor antes del vencimiento o durante los primeros días de mora. Su propósito es recordar el compromiso de pago, confirmar la fecha de cumplimiento y evitar que la obligación se deteriore por falta de seguimiento oportuno.
-                  p Ejemplo: el gestor realiza una llamada o envía un mensaje institucional antes de la fecha límite de pago para recordar la obligación. Esta acción permite prevenir el incumplimiento y mantener una relación activa con el cliente.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/31.png', style='width: 572px')
-            
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Visitas de campo]: permiten verificar la situación real del deudor cuando los canales remotos no generan respuesta suficiente. Esta acción se utiliza en casos que requieren mayor cercanía, validación de información, revisión de capacidad de pago o formalización de compromisos.
-                  p Ejemplo: si el deudor no responde llamadas ni mensajes y presenta mora media, el gestor puede programar una visita para conocer su situación económica, verificar datos de contacto y proponer una alternativa de pago viable.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/32.png', style='width: 572px')
+          .row.justify-content-center.align-items-center
+            .col-lg-11
+              SlyderA.p-5.bg-13.bg-r8(tipo="b")
+                .row.justify-content-center.align-items-center
 
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Seguimiento de acuerdos]: consiste en comprobar si los compromisos de pago se cumplen en las fechas pactadas. Esta acción permite mantener control sobre los acuerdos formalizados, identificar incumplimientos oportunamente y definir nuevas acciones cuando el deudor no cumple lo establecido.
-                  p Ejemplo: después de pactar un pago parcial, el gestor revisa el sistema en la fecha acordada para confirmar si el pago fue realizado. Si no se evidencia cumplimiento, se registra la novedad y se programa un nuevo contacto.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/33.png', style='width: 572px')
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Monitoreo de alertas tempranas]: permite identificar señales que pueden anticipar el incumplimiento de una obligación. Estas señales pueden relacionarse con retrasos frecuentes, solicitudes de prórroga, disminución de pagos, cambios en la actividad económica del deudor o dificultades reportadas durante el contacto.
+                    p Ejemplo: si un cliente solicita ampliar la fecha de pago en varias ocasiones, el gestor puede registrar la alerta, revisar el historial del crédito y proponer una acción preventiva antes de que la obligación avance a una etapa de mayor riesgo.
                     
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Revisión de indicadores]: permite evaluar el avance del plan mediante datos como cartera vencida, tasa de recuperación, acuerdos formalizados, acuerdos cumplidos y monto recaudado. Estos indicadores muestran si las estrategias aplicadas están generando los resultados esperados.
-                  p Ejemplo: al cierre de la semana, el equipo compara el valor recuperado con la meta definida. Si el resultado es inferior al esperado, se revisan las causas y se ajustan las acciones para mejorar la recuperación.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/34.png', style='width: 572px')
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/30.png', style='width: 572px')
+              
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Cobranza preventiva]: consiste en contactar al deudor antes del vencimiento o durante los primeros días de mora. Su propósito es recordar el compromiso de pago, confirmar la fecha de cumplimiento y evitar que la obligación se deteriore por falta de seguimiento oportuno.
+                    p Ejemplo: el gestor realiza una llamada o envía un mensaje institucional antes de la fecha límite de pago para recordar la obligación. Esta acción permite prevenir el incumplimiento y mantener una relación activa con el cliente.
                     
-              .row.justify-content-center.align-items-center
-                .col-lg-6.mb-4.mb-lg-0
-                  p #[b Comité de cartera]: facilita el análisis de casos relevantes, la revisión de resultados y la toma de decisiones frente a obligaciones que requieren acciones especiales. Este espacio permite evaluar situaciones complejas y definir rutas de gestión con respaldo institucional.
-                  p Ejemplo: un crédito de alto valor con mora avanzada puede ser presentado al comité para decidir si continúa en gestión extrajudicial, se propone una reestructuración o se remite al área jurídica.
-                  
-                .col-lg-6.d-flex.d-none.d-lg-block
-                  figure(data-aos="fade-down")
-                    img(src='@/assets/curso/tema3/35.png', style='width: 572px')
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/31.png', style='width: 572px')
+              
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Visitas de campo]: permiten verificar la situación real del deudor cuando los canales remotos no generan respuesta suficiente. Esta acción se utiliza en casos que requieren mayor cercanía, validación de información, revisión de capacidad de pago o formalización de compromisos.
+                    p Ejemplo: si el deudor no responde llamadas ni mensajes y presenta mora media, el gestor puede programar una visita para conocer su situación económica, verificar datos de contacto y proponer una alternativa de pago viable.
+                    
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/32.png', style='width: 572px')
+
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Seguimiento de acuerdos]: consiste en comprobar si los compromisos de pago se cumplen en las fechas pactadas. Esta acción permite mantener control sobre los acuerdos formalizados, identificar incumplimientos oportunamente y definir nuevas acciones cuando el deudor no cumple lo establecido.
+                    p Ejemplo: después de pactar un pago parcial, el gestor revisa el sistema en la fecha acordada para confirmar si el pago fue realizado. Si no se evidencia cumplimiento, se registra la novedad y se programa un nuevo contacto.
+                    
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/33.png', style='width: 572px')
+                      
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Revisión de indicadores]: permite evaluar el avance del plan mediante datos como cartera vencida, tasa de recuperación, acuerdos formalizados, acuerdos cumplidos y monto recaudado. Estos indicadores muestran si las estrategias aplicadas están generando los resultados esperados.
+                    p Ejemplo: al cierre de la semana, el equipo compara el valor recuperado con la meta definida. Si el resultado es inferior al esperado, se revisan las causas y se ajustan las acciones para mejorar la recuperación.
+                    
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/34.png', style='width: 572px')
+                      
+                .row.justify-content-center.align-items-center
+                  .col-lg-6.mb-4.mb-lg-0
+                    p #[b Comité de cartera]: facilita el análisis de casos relevantes, la revisión de resultados y la toma de decisiones frente a obligaciones que requieren acciones especiales. Este espacio permite evaluar situaciones complejas y definir rutas de gestión con respaldo institucional.
+                    p Ejemplo: un crédito de alto valor con mora avanzada puede ser presentado al comité para decidir si continúa en gestión extrajudicial, se propone una reestructuración o se remite al área jurídica.
+                    
+                  .col-lg-6.d-flex.d-none.d-lg-block
+                    figure(data-aos="fade-down")
+                      img(src='@/assets/curso/tema3/35.png', style='width: 572px')
 
     .row.align-items-center.justify-content-center.mt-3
       .col-lg-12

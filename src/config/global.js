@@ -221,11 +221,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -382,7 +377,7 @@ export default {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
             'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
-          centro: 'Dirección General',
+          centro: 'Centro Agroturístico – Regional Santander ',
         },
         {
           nombre: 'Diana Rocío Possos Beltrán',
@@ -430,8 +425,8 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Jorge Eduardo Rueda Peña',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          nombre: 'María Fernanda Pineda Mora',
+          cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

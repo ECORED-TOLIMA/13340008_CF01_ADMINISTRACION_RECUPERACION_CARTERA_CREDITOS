@@ -217,10 +217,15 @@
                 p Las entidades de crédito en Colombia conforman un sistema financiero diverso, regulado y supervisado por la Superintendencia Financiera de Colombia. Bancos comerciales, compañías de financiamiento, corporaciones financieras, cooperativas financieras y organismos cooperativos de grado superior comparten un elemento en común, todas administran recursos del público y deben responder por la calidad de su cartera de créditos ante los organismos de control. Conocer los tipos de entidades que integran este sistema es indispensable para que el gestor comprenda el contexto institucional en el que desarrolla su labor.
 
                 p.p-3.bg-16.bg-r8 Cada tipo de entidad tiene características propias que determinan el perfil de sus deudores, el volumen de su cartera y las estrategias de cobranza más adecuadas para su segmento de negocio. Un banco comercial de cobertura nacional administra portafolios de millones de obligaciones con perfiles de deudores muy diversos, mientras que una cooperativa financiera de carácter regional atiende a un segmento más homogéneo de asociados con características económicas similares. Esta diversidad exige que el gestor adapte su conocimiento técnico al tipo de institución en la que se desempeña y al perfil específico de los deudores que administra.
+                
 
               .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
                 figure.m-0.p-0.w-100.h-100.d-flex
                   img(src='@/assets/curso/tema1/18.png', alt='', class="w-100 h-100 object-fit-cover")
+
+
+    p.mt-4 Los tipos de entidades de crédito que operan en Colombia y sus características distintivas en la administración de cartera son los siguientes:
+
 
     .row.align-items-center.justify-content-center
       .col-lg-10

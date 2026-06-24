@@ -65,7 +65,7 @@
                             p.mb-0 #[b Decisión esperada]: orienta la acción que debe aplicarse en la gestión de cartera. 
                             
                           li(class="fa-solid fa-comment-dollar" style="color: rgb(255, 152, 74);")                
-                            p.mb-0 #[b Seguimiento]:permite verificar compromisos, resultados y acciones de mejora. 
+                            p.mb-0 #[b Seguimiento]: permite verificar compromisos, resultados y acciones de mejora. 
 
                       .col-lg-2
                         figure(data-aos="fade-down")

@@ -50,7 +50,7 @@
                   img.icon-normal(src='@/assets/curso/tema4/3.svg', style='width: 80px')
                   img.icon-hover(src='@/assets/curso/tema4/7.svg', style='width: 80px')
           h4.text-center Servicio en el sector financiero
-          p Prmite reconocer cómo la entidad atiende las necesidades, consultas y solicitudes del cliente deudor. 
+          p Permite reconocer cómo la entidad atiende las necesidades, consultas y solicitudes del cliente deudor. 
 
       .col-lg-3.mb-4.mb-lg-0
         //-Tarjeta 2
@@ -62,7 +62,7 @@
                   img.icon-normal(src='@/assets/curso/tema4/4.svg', style='width: 80px')
                   img.icon-hover(src='@/assets/curso/tema4/8.svg', style='width: 80px')
           h4.text-center Fidelización del cliente deudor
-          p Oienta la conservación de una relación responsable durante el proceso de recuperación de la obligación. 
+          p Orienta la conservación de una relación responsable durante el proceso de recuperación de la obligación. 
 
       .col-lg-3.mb-4.mb-lg-0
         //-Tarjeta 3
