@@ -382,7 +382,7 @@ export default {
         {
           nombre: 'Diana Rocío Possos Beltrán',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro Agroturístico - Regional Santander',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
     },
